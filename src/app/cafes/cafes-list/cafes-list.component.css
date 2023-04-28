@@ -1,0 +1,22 @@
+.container{
+  margin-top: 20px;
+}
+
+p{
+  font-family: 'Indie Flower', cursive;
+  font-size: 36px;
+}
+
+.img-cafe{
+  width: 100%;
+}
+
+.table{
+  width: 65%;
+}
+
+.table>thead{
+ background-color: #333A40;
+ color: white;
+}
+

@@ -9,9 +9,10 @@ import { Cafe } from './cafe';
 })
 export class CafesService {
 
+private apiUrl: string = environment.baseUrl;
 constructor(private http: HttpClient) { }
 
   getCafe(): Observable<Cafe[]> {
-    return this.http.get<Cafe[]>(environment.baseUrl);
+    return this.http.get<Cafe[]>(this.apiUrl);
   }
 }
