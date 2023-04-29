@@ -2,9 +2,13 @@
   margin-top: 20px;
 }
 
-p{
+h1{
   font-family: 'Indie Flower', cursive;
   font-size: 36px;
+}
+
+p{
+  font-family: 'Inter', sans-serif;
 }
 
 .img-cafe{
@@ -18,5 +22,9 @@ p{
 .table>thead{
  background-color: #333A40;
  color: white;
+}
+
+.footer-contact{
+  margin-top: 50px;
 }
 
